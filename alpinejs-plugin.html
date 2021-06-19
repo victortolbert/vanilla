@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+  <script src="https://raw.githack.com/alpinejs/alpine-next/main/packages/intersect/dist/cdn.min.js" defer></script>
+  <script src="https://raw.githack.com/alpinejs/alpine-next/main/packages/alpinejs/dist/cdn.min.js" defer></script>
+</head>
+<body>
+
+<h1 class="my-8 text-center text-5xl font-bold text-indigo-500">Scroll down</h1>
+
+<section class="h-screen"></section>
+
+<section x-data="{ active: false }" x-intersect:enter="active = true; console.log('enter')" x-intersect:leave="active = false; console.log('leave')" class="h-96 bg-indigo-500 text-white flex items-center">
+  <h2 x-data :class="{ 'opactiy-100' : active, 'opacity-0' : !active }" class="opacity-0 m-auto text-5xl text-center font-bold transition-all duration-1000 ease">AlpineJS V3 is 🔥</h2>
+</section>
+
+<section class="h-screen"></section>
+</body>
+</html>

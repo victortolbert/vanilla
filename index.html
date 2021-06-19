@@ -4,21 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+    <script src="https://unpkg.com/alpinejs@3.0.1/dist/cdn.min.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     <title>Vanilla JavaScript App</title>
 </head>
 
 <body>
     <main>
-    <h1>Vanilla JavaScript App</h1>
-    <p>Loading content from the API: <b id="name">...</b></p>
+        <h1>Vanilla JavaScript App</h1>
+        <p>Loading content from the API: <b id="name">...</b></p>
+
+        <div class="p-16">
+            <div class="h-[120px] w-[120px] rounded-full border bg-red-400 hover:bg-blue-400 cursor-pointer"></div>
+        </div>
+
+        <div x-data="{ show : true }">
+            <template x-if="show"><span>This shows</span></template>
+            <template x-if="!show"><span>This also shows</span></template>
+            <div x-show="show">This works as expected (shows)</div>
+            <div x-show="!show">This works as expected (no show)</div>
+        </div>
     </main>
 
     <script>
-    (async function() {
-        const { text } = await( await fetch(`/api/message`)).json();
-        document.querySelector('#name').textContent = text;
-    }())
+        (async function () {
+            const { text } = await (await fetch(`/api/message`)).json();
+            document.querySelector('#name').textContent = text;
+        }())
     </script>
 </body>
 
