@@ -1,0 +1,31 @@
+https://azure.microsoft.com/en-us/free/free-account-faq/
+
+- 1000 RU/s provisioned throughput with 25 GB of storage for Azure Cosmos DB
+- Azure IoT Central includes a 7-day free trial for first time subscribers and 2 free monthly connected devices
+- Azure Maps S0 account tiers offer 250,000 monthly map tile loads and 25,000 monthly service calls
+- 5 GB of bandwidth for outbound data transfer with free unlimited inbound transfer
+- 10 web, mobile, or API apps with Azure App Service with 1 GB storage
+- 1 million requests and 400,000 GBs of resource consumption with Azure Functions
+- 100,000 operations for event publishing and delivery with Event Grid
+- 50,000 stored objects with Azure Active Directory with single sign-on (SSO) to all cloud apps and MFA
+- 50,000 active users per month (MAU) with Azure Active Directory B2C
+- Free Azure Service Fabric to build microservice apps
+- First 5 users free with Azure DevOps
+- Unlimited nodes (server or platform-as-a-service instance) with Application Insights and 1 GB of telemetry data included per month
+- Unlimited use of Azure DevTest Labs
+- Machine Learning with 100 modules and 1 hour per experiment with 10 GB included storage
+- Free policy assessment and recommendations with Azure Security Center
+- Unlimited recommendations and best practices with Azure Advisor
+- Free Azure IoT Hub edition includes 8,000 messages per day with 0.5 KB message meter size
+- 5 free low frequency activities with Azure Data Factory
+- 50 MB storage for 10,000 hosted documents with Azure Cognitive Search including 3 indexes per service
+- Free namespace and 1 million push notifications with Azure Notification Hubs
+- Unlimited Azure Batch usage for job scheduling and cluster management
+- Free 500 minutes of job run time with Azure Automation
+- Unlimited users and 5,000 catalog objects with Azure Data Catalog
+- 30,000 transactions per month processing at 20 transactions per minute with Face API
+- Free 2 million characters included for Translator
+- Free 5 GB per month analysis plus 31-day retention period with Log Analytics
+- 50 virtual networks free with Azure Virtual Network
+- Unlimited inbound Inter-VNet data transfer
+- Free Azure Container service to cluster virtual machines
